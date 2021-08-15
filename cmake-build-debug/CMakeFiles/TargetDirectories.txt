@@ -1,0 +1,3 @@
+/home/kirill/CLionProjects/kattis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kirill/CLionProjects/kattis/cmake-build-debug/CMakeFiles/kattis.dir
+/home/kirill/CLionProjects/kattis/cmake-build-debug/CMakeFiles/edit_cache.dir

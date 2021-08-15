@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="kattis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kirill/CLionProjects/kattis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kirill/CLionProjects/kattis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kattis">
+				<Option output="/home/kirill/CLionProjects/kattis/cmake-build-debug/kattis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirill/CLionProjects/kattis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 kattis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kattis/fast">
+				<Option output="/home/kirill/CLionProjects/kattis/cmake-build-debug/kattis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirill/CLionProjects/kattis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 kattis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kirill/CLionProjects/kattis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirill/CLionProjects/kattis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kirill/CLionProjects/kattis/10kindsofpeople.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/3dprinter.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/4thought.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/8queens.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/aaah.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/abc.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/aboveaverage.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/acm.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/addingwords.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/addtwonumbers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/akcija.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/allpairspath.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/almostperfect.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/alphabetspam.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/amoebas.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/anewalphabet.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/anotherbrick.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/anothercandies.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/apaxiaaans.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/apaxianparent.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/areal.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/armystrengtheasy.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/armystrengthhard.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/artichoke.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/autori.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/avion.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/babelfish.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/babybites.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/backspace.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/baconeggsandspam.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/basketballoneonone.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bela.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bestrelayteam.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bijele.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bits.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/blackfriday.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/boatparts.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bookingaroom.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bossbattle.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/bus.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/busnumbers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/carrots.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/cd.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/ceiling.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/cetvrta.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/chanukah.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/classy.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/closingtheloop.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/cold.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/commercials.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/compass.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/compoundwords.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/conformity.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/countingstars.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/cudoviste.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/cups.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/dasblinkenlights.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/datum.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/deathknight.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/detaileddifferences.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/dicebetting.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/dicecup.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/dicegame.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/different.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/differentdistances.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/drmmessages.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/dungeon.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/easiest.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/echoechoecho.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/electricaloutlets.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/elevatortrouble.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/eligibility.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/encodedmessage.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/engineeringenglish.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/erase.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/estimatingtheareaofacircle.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/evenup.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/everywhere.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/faktor.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/falling.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/fiftyshades.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/filip.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/finalexam2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/fire2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/fizzbuzz.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/flexible.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/flyingsafely.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/fodelsedagsmemorisering.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/forcedchoice.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/freefood.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/fyi.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/goatrope.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/goldbach2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/grassseed.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/greedilyincreasing.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/greetings2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/guess.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/guessthedatastructure.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/hangingout.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/hangman.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/harshadnumbers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/heimavinna.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/hello.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/helpaphd.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/herman.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/hissingmicrophone.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/icpcawards.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/incognito.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/integerlists.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/isithalloween.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/jackolanternjuxtaposition.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/jobexpenses.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/joinstrings.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/judgingmoose.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/jumbojavelin.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/justaminute.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/karte.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/kemija08.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/kornislav.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/ladder.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/laptopsticker.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/lastfactorialdigit.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/leftbeehind.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/licensetolaunch.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/lineup.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/listgame.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/magictrick.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/minimumscalar.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/mirror.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/misa.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/missingnumbers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/mixedfractions.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/mjehuric.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/modulo.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/nastyhacks.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/nodup.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/numberfun.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/numbertree.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/oddgnome.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/oddities.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/oddmanout.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/ofugsnuid.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/onechicken.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/parking.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/parking2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pauleigon.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/peragrams.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pet.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/phonelist.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pieceofcake2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pivot.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pizza2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/planina.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/plantingtrees.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pokerhand.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/pot.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/primesieve.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/ptice.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/qaly.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/quadrant.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/quickbrownfox.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/quickestimate.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/r2.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/racingalphabet.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/raggedright.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/ratingproblems.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/recipes.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/relocation.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/reversebinary.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/reverserot.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/rijeci.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/romans.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/runlengthencodingrun.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/savingforretirement.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/schoolspirit.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/secretmessage.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/securedoors.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/server.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sevenwonders.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/shortestpath1.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sibice.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sifferprodukt.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/simon.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/simonsays.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/skener.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/skocimis.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/skolavslutningen.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sodaslurpe.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sortofsorting.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sorttwonumbers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/soylent.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/spavanac.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/speeding.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/speedlimit.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/squarepegs.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/stararrangements.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/statistics.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/stopwatch.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sumkindofproblem.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/sumsquareddigits.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/symmetricorder.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/synchronizinglists.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/t9spelling.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/tarifa.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/timebomb.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/timeloop.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/toilet.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/tornbygge.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/trainpassengers.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/transitwoes.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/tri.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/trik.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/tripletexting.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/tutorial.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/twostones.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/upprodun.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/visualgo.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/volim.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/vote.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/weakvertices.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/whatdoesthefoxsay.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/wheresmyinternet.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/woodcutting.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/yoda.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/zamka.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/zanzibar.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/zoo.cpp">
+			<Option target="kattis"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/kattis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
