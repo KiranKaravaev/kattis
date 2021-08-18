@@ -17,6 +17,7 @@ int main() {
         b[i] = a[i];
     }
     sort(a, a + 9);
+
     do {
         int s = 0;
         for(int i = 0; i < 7; ++i) {
