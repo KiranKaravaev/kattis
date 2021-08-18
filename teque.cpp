@@ -10,35 +10,32 @@
 
 using namespace std;
 
+char op[15];
+
 int main() {
     deque <int> l, r;
     int n;
-    cin >> n;
+    scanf("%d\n", &n);
     int size = 0;
     while(n--) {
-        string op;
-        cin >> op;
-        if(op == "get") {
-            int ind;
-            cin >> ind;
+        int x;
+        scanf("%s%d", &op, &x);
+        if(!strcmp(op, "get")) {
+            int ind = x;
             if(ind + 1 <= l.size()) {
                 cout << l[ind] << endl;
             } else {
                 ind -= l.size();
                 cout << r[ind] << endl;
             }
-        } else if(op == "push_back") {
-            int x;
-            cin >> x;
+        } else if(!strcmp(op, "push_back")) {
             ++size;
             r.push_back(x);
             if(r.size() > l.size()) {
                 l.push_back(r.front());
                 r.pop_front();
             }
-        } else if(op == "push_front") {
-            int x;
-            cin >> x;
+        } else if(!strcmp(op, "push_front")) {
             ++size;
             l.push_front(x);
             if(l.size() > r.size() + 1) {
@@ -46,8 +43,6 @@ int main() {
                 l.pop_back();
             }
         } else {
-            int x;
-            cin >> x;
             ++size;
             l.push_back(x);
             if(l.size() > r.size() + 1) {
